@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-tabs__tab {
+  @apply px-4 py-2 cursor-pointer border-b-2 border-transparent;
+}
+
+.react-tabs__tab--selected {
+  @apply border-blue-500;
+}
+
+.react-tabs__tab-list {
+  @apply flex border-b mb-4;
+}
+
+.react-tabs__tab-panel {
+  @apply hidden;
+}
+
+.react-tabs__tab-panel--selected {
+  @apply block;
+}
